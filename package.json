@@ -4,7 +4,7 @@
   "description": "Demo JavaScript Tools",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "bun index.ts"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,15 @@
   },
   "homepage": "https://github.com/mhaidarhanif/demo-js-tools#readme",
   "dependencies": {
-    "math-intrinsics": "^1.1.0"
+    "is-even": "^1.0.0",
+    "pluralize": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/is-even": "^1.0.2",
+    "prettier": "3.4.2",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }

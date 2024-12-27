@@ -1,0 +1,26 @@
+{
+  "name": "demo-js-tools",
+  "version": "1.0.0",
+  "description": "Demo JavaScript Tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhaidarhanif/demo-js-tools.git"
+  },
+  "keywords": [
+    "demo",
+    "javascript"
+  ],
+  "author": "M Haidar Hanif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhaidarhanif/demo-js-tools/issues"
+  },
+  "homepage": "https://github.com/mhaidarhanif/demo-js-tools#readme",
+  "dependencies": {
+    "math-intrinsics": "^1.1.0"
+  }
+}
